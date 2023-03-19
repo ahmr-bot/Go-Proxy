@@ -1,0 +1,31 @@
+http:
+  - local_port: 8080
+    source_address: ""
+    target_host: "localhost"
+    target_port: 8001
+    domains:
+      - "localhost"
+  - local_port: 8081
+    source_address: ""
+    target_host: "stack.laecloud.com"
+    target_port: 80
+    domains:
+      - "example.com"
+
+tcp:
+  - local_port: 9000
+    source_address: ""
+    target_address: "localhost:9001"
+ws:
+  - local_port: 8080
+    source_address: ""
+    target_host: "localhost"
+    target_port: 8001
+    domains:
+      - "localhost"
+  - local_port: 8081
+    source_address: ""
+    target_host: "localhost"
+    target_port: 8001
+    domains:
+      - "example.com"
