@@ -7,7 +7,7 @@ http:
       - "localhost"
   - local_port: 8081
     source_address: ""
-    target_host: "stack.laecloud.com"
+    target_host: "baidu.com"
     target_port: 80
     domains:
       - "example.com"
